@@ -1,17 +1,31 @@
 # PMIL
 Parallel Multiple Instance Learning
 
-This is the software package of our BMC bioinformatics paper:
+This is the software package for the BMC bioinformatics paper:
 
-Xu, Y., Li, Y., Shen, Z., Wu, Z., Gao, T., Fan, Y., Lai, M., Eric, I. and Chang, C., 2017. Parallel multiple instance learning for extremely large histopathology image analysis. BMC bioinformatics, 18(1), p.360.
 
-Paper links:
+> **Parallel multiple instance learning for extremely large histopathology image analysis**
+> 
+> Yan Xu, Yeshu Li, Zhengyang Shen, Ziwei Wu, Teng Gao, Yubo Fan, Maode Lai, Eric I-Chao Chang 
+> 
+> [[BMC link]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1768-8)
+> [[PubMed link]](https://www.ncbi.nlm.nih.gov/pubmed/28774262)
 
-https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1768-8
-https://www.ncbi.nlm.nih.gov/pubmed/28774262
+Please refer to the `feature` folder for code for feature extraction, and [MCILBoost](https://github.com/junyanz/MCILBoost) for the framework of the learning algorithms.
 
-Please cite our paper if you use our software package in your research.
+The release package for Windows can be found in the [release](https://github.com/DanielLeee/PMIL/releases) page.
 
-Source code under construction.
+Please cite our work if you find it useful in your research:
 
-Please refer to the release package first.
+```
+@article{xu2017parallel,
+  title={Parallel multiple instance learning for extremely large histopathology image analysis},
+  author={Xu, Yan and Li, Yeshu and Shen, Zhengyang and Wu, Ziwei and Gao, Teng and Fan, Yubo and Lai, Maode and Eric, I and Chang, Chao},
+  journal={BMC bioinformatics},
+  volume={18},
+  number={1},
+  pages={1--15},
+  year={2017},
+  publisher={BioMed Central}
+}
+```
