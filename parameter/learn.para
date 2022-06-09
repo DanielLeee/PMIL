@@ -1,0 +1,16 @@
+#Set the Boost para
+NUM_WEAK_CLF    = 2000
+NUM_BINS	 	= 1000
+ALPHA_BOUND		= 0.00001
+ALPHA_BINS		= 20
+
+#Set the weak classifier
+IS_USE_STUMP	= true
+IS_USE_LINEAR	= true
+IS_USE_SQUARE	= true
+IS_USE_RANGE	= true
+
+#Set the file
+CLF				= clf.txt
+LOG				= log.txt
+

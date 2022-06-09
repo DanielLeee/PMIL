@@ -1,0 +1,35 @@
+#Set dir
+EXPR		= G:\MachineLearning\ParallelClusteredComputing\[20130810]code\[20130720][mil]code\Expr_small
+MODEL		= MILBoost
+IMAGE		= image
+FEATURE		= feature
+SCRIPT		= script
+TRUTH		= truth
+LOG			= log
+RESULTDATA	= resultData
+RESULTIMAGE	= resultImage
+
+#Set ext
+PARA_EXT	= para
+IMAGE_EXT	= jpg
+FEATURE_EXT	= dat
+RESULT_EXT	= test
+TRUTH_EXT	= bmp
+
+#Set file name
+TRAIN		= train.txt
+TEST		= test.txt
+RESULT		= result.txt
+FEALIST		= feature.txt
+
+#Set detail para
+FEATURE_PARA	= feature
+LEARN_PARA		= learn
+VISUAL_PARA		= visual
+
+#Set for Parallel
+IO_LIMIT	= 16
+CACHE_DIR	= D:\Temp
+
+#Others
+ROC_STEP	= 0.001

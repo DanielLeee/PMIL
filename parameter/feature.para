@@ -1,0 +1,41 @@
+#Set the patch
+PATCH_SIZE      = 256
+TRAIN_STEP		= 32
+TEST_STEP       = 32
+
+#Set script
+TRAIN_RATE	  = 100
+TEST_RATE	  = 100
+
+#Set the feature selection
+IS_USE_COLOR      = true
+IS_USE_GREYHIST   = true
+IS_USE_SIFT  	  = true
+IS_USE_HOG        = true
+IS_USE_LAB        = true
+IS_USE_GLCM	  	  = true
+IS_USE_REGION	  = true
+
+#Set for SIFT 
+SIFT_PYM_LAYER    = 1
+IS_ALIGN_ANGLE    = true
+
+#Set for Grey Histogram 
+HISTGRAM_BINS     = 16
+
+#Set for HOG 
+HOG_CELL_SIZE     = 32
+HOG_NUM_BINS      = 9
+
+#Set for LAB 
+LAB_L_BINS        = 4
+LAB_A_BINS        = 1
+LAB_B_BINS        = 4
+
+#Set for GLCM
+GLCM_DIS	  = 5
+GLCM_GRAY_LEVEL   = 16
+
+#Set for REGION
+REGION_THR	  = 128
+REGION_BOUND	  = 16

@@ -1,0 +1,9 @@
+Feature Total Length: 215
+COLOR : 0 to 5
+SIFT : 6 to 133
+HIST : 134 to 149
+HOG : 150 to 176
+LAB : 177 to 192
+GLCM : 193 to 212
+REGION : 213 to 214
+

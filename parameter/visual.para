@@ -1,0 +1,11 @@
+#equal to step size in feature.para
+PATCH_SIZE		= 40
+
+#Set the border
+BORDER_WIDTH		= 10
+BORDER_R		= 0
+BORDER_G		= 255
+BORDER_B		= 0
+
+#Set the socre threshold
+THRESHOLD		= 0.01
