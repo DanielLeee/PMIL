@@ -11,7 +11,7 @@ This is the software package for the BMC bioinformatics paper:
 > [[BMC link]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1768-8)
 > [[PubMed link]](https://www.ncbi.nlm.nih.gov/pubmed/28774262)
 
-Please refer to the `feature` folder for code for feature extraction, and [MCILBoost](https://github.com/junyanz/MCILBoost) for the framework of the learning algorithms.
+A large part of the code is borrowed from [MCILBoost](https://github.com/junyanz/MCILBoost).
 
 The release package for Windows can be found in the [release](https://github.com/DanielLeee/PMIL/releases) page.
 
